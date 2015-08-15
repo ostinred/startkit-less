@@ -1,0 +1,10 @@
+{
+  "keyDev": {
+    "username": "",
+    "password": ""
+  },
+  "keyProd": {
+    "username": "",
+    "password": ""
+  }
+}

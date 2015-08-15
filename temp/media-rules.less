@@ -1,0 +1,128 @@
+//Mobile first
+
+// min-width extra small screen / phone
+.xs(@rules) {
+  @media screen and (min-width: @screen-xs){
+    @rules();
+  }
+}
+
+// min-width small screen / tablets
+.sm(@rules) {
+  @media screen and (min-width: @screen-sm){
+    @rules();
+  }
+}
+
+// min-width medium screen / desktop
+.md(@rules) {
+  @media screen and (min-width: @screen-md) {
+    @rules();
+  }
+}
+
+// min-width large screen / wide desktop
+.lg(@rules) {
+  @media screen and (min-width: @screen-lg){
+    @rules();
+  }
+}
+
+// min-width large screen / wide desktop
+.xl(@rules) {
+  @media screen and (min-width: @screen-xl){
+    @rules();
+  }
+}
+//Mobile first invert
+//**All media-queries -> max-width
+
+// max-width extra small screen / phone
+.max-xs(@rules) {
+  @media screen and (max-width: @screen-xs){
+    @rules();
+  }
+}
+
+// max-width small screen / tablets
+.max-sm(@rules) {
+  @media screen and (max-width: @screen-sm){
+    @rules();
+  }
+}
+
+// max-width medium screen / desktop
+.max-md(@rules) {
+  @media screen and (max-width: @screen-md) {
+    @rules();
+  }
+}
+
+// max-width large screen / wide desktop
+.max-lg(@rules) {
+  @media screen and (max-width: @screen-lg){
+    @rules();
+  }
+}
+
+//In-between media-queries
+//**All media-rules -> min-width - max-width
+// in order
+
+.xs-sm(@rules) {
+  @media (min-width: @screen-xs) and (max-width: @screen-sm){
+    @rules();
+  }
+}
+
+.sm-md(@rules) {
+  @media (min-width: @screen-sm) and (max-width: @screen-md){
+    @rules();
+  }
+}
+
+.md-lg(@rules) {
+  @media (min-width: @screen-md) and (max-width: @screen-lg){
+    @rules();
+  }
+}
+
+//variantly
+.xs-md(@rules) {
+  @media (min-width: @screen-xs) and (max-width: @screen-md){
+    @rules();
+  }
+}
+
+.xs-lg(@rules) {
+  @media (min-width: @screen-xs) and (max-width: @screen-lg){
+    @rules();
+  }
+}
+
+.sm-lg(@rules) {
+  @media (min-width: @screen-sm) and (max-width: @screen-lg){
+    @rules();
+  }
+}
+
+//sm -1px
+.max-sm-pre(@rules){
+  @media screen and (max-width: @screen-xs-max){
+    @rules();
+  }
+}
+
+//md -1px
+.max-md-pre(@rules){
+  @media screen and (max-width: @screen-sm-max){
+    @rules();
+  }
+}
+
+//lg -1px
+.max-lg-pre(@rules){
+  @media screen and (max-width: @screen-md-max){
+    @rules();
+  }
+}

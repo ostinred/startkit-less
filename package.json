@@ -1,0 +1,43 @@
+{
+  "name": "YourProjectName",
+  "version": "0.1.0",
+  "main": "less/bootstrap.less",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@gitlab.reclamare.ua:bower/rcl-bootstrap.git"
+  },
+  "keywords": [
+    "custom",
+    "bootstrap",
+    "css-framework"
+  ],
+  "author": "Reclamare",
+  "license": "ISC",
+  "bugs": {
+    "url": "http://gitlab.reclamare.ua/bower/rcl-bootstrap/issues"
+  },
+  "homepage": "http://gitlab.reclamare.ua/bower/rcl-bootstrap#README",
+  "devDependencies": {
+    "autoprefixer-core": "^5.2.1",
+    "grunt": "^0.4.5",
+    "grunt-cli": ">= 0.1.13",
+    "grunt-contrib-clean": "^0.6.0",
+    "grunt-contrib-concat": "^0.5.1",
+    "grunt-contrib-copy": "^0.8.0",
+    "grunt-contrib-imagemin": "^0.9.4",
+    "grunt-contrib-less": "^1.0.1",
+    "grunt-contrib-uglify": "^0.9.1",
+    "grunt-contrib-watch": "^0.6.1",
+    "grunt-file-creator": "^0.1.3",
+    "grunt-ftp-deploy": "^0.1.10",
+    "grunt-mkdir": "^0.1.2",
+    "grunt-postcss": "^0.5.5",
+    "grunt-register-tasks": "^1.0.0",
+    "grunt-rename": "^0.1.4",
+    "load-grunt-tasks": "^3.2.0",
+    "rename": "^1.0.3"
+  }
+}
